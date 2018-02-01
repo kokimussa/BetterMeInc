@@ -1,7 +1,15 @@
 const express = require('express');
 const conn = require('./db/conn');
+const path = require("path");
 
 // const router  = express.Router();
+
+
+
+const app = express();
+const port = process.env.PORT || 5000;
+
+app.use(express.static("client/build"));
 
 
 // Testing conn
@@ -11,14 +19,9 @@ conn.authenticate().then(() => {
     console.error('Unable to connect!', err);
 });
 
-const app = express();
-const port = process.env.PORT || 5000;
-
-app.use(express.static("client/build"));
-
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname, "/client/build/index.html");
+    res.sendFile(path.join(__dirname, "/client/build/index.html"));
 });
 
 
