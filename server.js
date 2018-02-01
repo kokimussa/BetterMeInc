@@ -1,7 +1,7 @@
 const express = require('express');
 const conn = require('./db/conn');
 
-const router  = express.Router();
+// const router  = express.Router();
 
 
 // Testing conn
