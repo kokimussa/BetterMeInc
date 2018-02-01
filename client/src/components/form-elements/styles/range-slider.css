@@ -1,0 +1,20 @@
+.range-slider
+.range-slider__label-text {
+    display: inline-block;
+}
+
+.range-slider
+.range-slider__input-container {
+    display: block;
+}
+
+.range-slider
+.range-slider__input {
+    width: 100%;
+}
+
+.range-slider
+.range-slider__label-text +
+.range-slider__input-container {
+    margin-top: 15px;
+}

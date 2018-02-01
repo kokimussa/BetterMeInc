@@ -1,0 +1,35 @@
+.bmi-table-scale {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.bmi-table-scale
+.bmi-table-scale__cell,
+.bmi-table-scale
+.bmi-table-scale__header-cell {
+    padding: 1rem;
+}
+
+.bmi-table-scale
+.bmi-table-scale__header-cell {
+    text-align: left;
+    font-weight: bold;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #cfd8dc;
+}
+
+.bmi-table-scale
+.bmi-table-scale__cell {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cfd8dc;
+}
+
+.bmi-table-scale
+.bmi-table-scale__row.mod-active {
+    color: #263238;
+    background-color: #18ffff;
+    font-style: italic;
+}

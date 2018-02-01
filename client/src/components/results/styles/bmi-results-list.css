@@ -1,0 +1,17 @@
+.bmi-risk-factors
+.bmi-risk-factors__title {
+    font-size: 1.4rem;
+    font-style: italic;
+    line-height: 1.4;
+    margin-top: 0;
+}
+
+.bmi-risk-factors
+.bmi-risk-factors__list {
+    font-size: 1.4rem;
+}
+
+.bmi-risk-factors
+.bmi-risk-factors__list-item {
+    line-height: 1.4;
+}

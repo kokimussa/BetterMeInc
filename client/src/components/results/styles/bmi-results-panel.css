@@ -1,0 +1,19 @@
+.bmi-results-panel {
+    background-position: center;
+    background-size: cover;
+}
+
+.bmi-results-panel
+.bmi-results-panel__inner {
+    color: #fff;
+    /* background-color: rgba(183, 28, 28, .5); */
+    background-color: rgba(0, 0, 0, .7);
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+.bmi-results-panel
+.bmi-results-panel__results-container +
+.bmi-results-panel__risks-container {
+    margin-top: 40px;
+}

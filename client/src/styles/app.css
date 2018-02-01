@@ -1,0 +1,102 @@
+.app {
+    min-width: 960px;
+    height: 100%;
+    /* background-color: #eceff1; */
+    display: flex;
+    flex-direction: column;
+}
+
+.app
+.app__header-container {
+    background-color: #fff;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cfd8dc;
+    padding: 1rem;
+    flex: 0 0 auto;
+}
+
+.app
+.app__header-logo-top,
+.app
+.app__header-logo-bottom {
+    display: block;
+    line-height: 1.4;
+}
+
+.app
+.app__header-logo-top {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.app
+.app__header-logo-bottom {
+    font-size: 1rem;
+}
+
+.app
+.app__main-container {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.app
+.app__main-container-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.app
+.app__main-container-left-inner {
+    color: #eceff1;
+    background-color: #37474f;
+    padding: 3rem;
+    flex: 1 1 auto;
+}
+
+.app
+.app__main-container-right {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+}
+
+.app
+.app__main-container-right
+.bmi-results-panel {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.app
+.app__main-container-right
+.bmi-results-panel__inner {
+    flex: 1 1 auto;
+}
+
+.app
+.app__section-container +
+.app__section-container {
+    margin-top: 3rem;
+}
+
+.app__section-container +
+.app__section-container.bmi-scale-container {
+    margin-top: 6rem;
+}
+
+.app
+.app__section-container.height {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app
+.app__section-container.height
+.app__range-slider-container {
+    width: 45%;
+}
