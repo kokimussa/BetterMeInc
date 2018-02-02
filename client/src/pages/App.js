@@ -41,7 +41,7 @@ class App extends Component {
                     <div className="app__header">
                         <div className="app__header-logo">
                             <span className="app__header-logo-top">BMI</span>
-                            <span className="app__header-logo-bottom">Beter Me Immersion</span>
+                            <span className="app__header-logo-bottom">Better Me Incorporated</span>
                         </div>
                     </div>
                 </div>
