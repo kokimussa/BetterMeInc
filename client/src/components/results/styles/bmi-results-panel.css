@@ -5,9 +5,9 @@
 
 .bmi-results-panel
 .bmi-results-panel__inner {
-    color: #fff;
+    color: #0b96ed;
     /* background-color: rgba(183, 28, 28, .5); */
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .4);
     box-sizing: border-box;
     padding: 3rem;
 }

@@ -30,6 +30,7 @@
 .bmi-table-scale
 .bmi-table-scale__row.mod-active {
     color: #263238;
-    background-color: #18ffff;
+    background-color: #ffffff;
     font-style: italic;
+    font-weight: bold;
 }
