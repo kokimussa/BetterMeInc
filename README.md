@@ -3,4 +3,4 @@ BMI (Better Me Incorporated): a web app that allows users to use their weight an
 
 Fullstack development using React, JavaScript, HTML, CSS, Node.js, My SQL DB, NPM Packages and Heroku
 
-![picture](img/BMI.png)
+img/BMI.png
